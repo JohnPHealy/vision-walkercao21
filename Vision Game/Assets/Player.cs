@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    
+    
     public float playerSpeed;
     private Rigidbody2D rb;
     private Vector2 playerDirection;
@@ -21,10 +23,14 @@ public class Player : MonoBehaviour
         float directionY = Input.GetAxisRaw("Vertical");
 
         playerDirection = new Vector2(directionX, directionY).normalized;
+       
     }
     void FixedUpdate()
     {
         rb.velocity = new Vector2(playerDirection.x * playerSpeed, playerDirection.y * playerSpeed);
     }
+    
+    
+    
 }
 
