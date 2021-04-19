@@ -7,13 +7,13 @@ public class Player : MonoBehaviour
     
     
     public float playerSpeed;
-    private Rigidbody2D rb;
+    private Rigidbody rb;
     private Vector2 playerDirection;
     
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
