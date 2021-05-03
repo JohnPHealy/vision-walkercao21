@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class PlayerDamage : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
       
-            manager.RespawnPlayer();
+            //manager.RespawnPlayer();
+            SceneManager.LoadScene("DeathScreen");
         }
     }
 }
