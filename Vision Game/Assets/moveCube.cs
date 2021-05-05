@@ -22,6 +22,8 @@ void Update()
         Vector3 moveDirection = new Vector3(xDirection, 0.0f, zDirection);
 
         rb.AddForce(xDirection, 0, zDirection, ForceMode.VelocityChange);
+        
+       
 }
 
 

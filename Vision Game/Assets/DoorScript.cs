@@ -7,7 +7,10 @@ public class DoorScript : MonoBehaviour {
     public bool open;
     public bool close;
     public bool inTrigger;
- 
+    
+  
+
+   
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;
@@ -30,6 +33,7 @@ public class DoorScript : MonoBehaviour {
                     {
                         open = true;
                         close = false;
+                        
                     }
                 }
             }
