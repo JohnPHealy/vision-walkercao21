@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+  m_Color: {r: 0.7075472, g: 0.6841848, b: 0.6841848, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -708,8 +708,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -320, y: 190.09328}
-  m_SizeDelta: {x: 242.4333, y: 105.8134}
+  m_AnchoredPosition: {x: -320, y: 133.12212}
+  m_SizeDelta: {x: 242.4333, y: 331.4677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971831791
 MonoBehaviour:
@@ -746,6 +746,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You Escaped the building and are now free from whatever was chasing you..........or
     are you?
+
+
+
+
+
 
 
     game over'
